@@ -1,0 +1,4 @@
+# latex auxiliary files
+*.aux
+*.log 
+*.out
