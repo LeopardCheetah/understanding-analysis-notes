@@ -5,6 +5,7 @@ Solutions for Abbott's classic textbook on Real Analysis, *Understanding Analysi
 `sols.pdf` (or whatever the file is called) should have the most up to date generated `.pdf` file. The raw tex is found at the corresponding `.tex` file. (Note: this will most likely become a mono-file repo or something and the `.tex` file will have a billion lines but that's just how I roll :/).
 
 ---
+---
 
 Textbook Progress:     
 Current section: 2.4     
@@ -19,10 +20,10 @@ Current section: 2.4
 - [ ] Finish reading the whole book :)         
 
 
+---
 
 Latex Progress:    
-- [x] Setup environment
-
+- [x] Setup proof/tex environment
 - [ ] Write introductory stuff     
 - [ ] Latex Chapter 1     
 - [ ] Latex Chapter 2     
