@@ -17,7 +17,7 @@ Current section: 2.4
     - [ ] Finish s2.4    
     - [ ] Finish s2.5    
     - [ ] Finish s2.6    
-    - [ ] Finish s2.7
+    - [ ] Finish s2.7     
     - [ ] Finish s2.8    
     - [ ] Finish reading s2.9        
 - [ ] Finish ch 3    
@@ -35,6 +35,13 @@ Latex Progress:
 - [x] Setup proof/tex environment
 - [ ] Write introductory stuff     
 - [ ] Latex Chapter 1     
+    - [ ] Latex s1.1   
+    - [ ] Latex s1.2    
+    - [ ] Latex s1.3    
+    - [ ] Latex s1.4    
+    - [ ] Latex s1.5    
+    - [ ] Latex s1.6     
+    - [ ] \(Latex) s1.7    
 - [ ] Latex Chapter 2     
 - [ ] Latex Chapter 3     
 - [ ] Latex Chapter 4     
