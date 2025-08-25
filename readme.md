@@ -11,7 +11,15 @@ Textbook Progress:
 Current section: 2.4     
 - [x] Finish ch 1    
 - [ ] Finish ch 2    
-    - [ ] Finish section 2.1   
+    - [x] Finish s2.1   
+    - [x] Finish s2.2    
+    - [x] Finish s2.3    
+    - [ ] Finish s2.4    
+    - [ ] Finish s2.5    
+    - [ ] Finish s2.6    
+    - [ ] Finish s2.7
+    - [ ] Finish s2.8    
+    - [ ] Finish reading s2.9        
 - [ ] Finish ch 3    
 - [ ] Finish ch 4    
 - [ ] Finish ch 5    
