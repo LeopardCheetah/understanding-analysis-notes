@@ -49,3 +49,8 @@ Latex Progress:
 - [ ] Latex Chapter 6
 - [ ] Latex Chapter 7     
 - [ ] Latex Chapter 8          
+
+- [ ] maybe make hyperlinks to theorems in Abbott's analysis possible? idrk.    
+- [ ] add a TOC    
+- [ ] make the exercises (not) slanted text (maybe)    
+
