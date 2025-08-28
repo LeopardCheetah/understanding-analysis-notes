@@ -33,7 +33,8 @@ Current section: 2.4
 
 Latex Progress:    
 - [x] Setup proof/tex environment
-- [ ] Write introductory stuff     
+- [x] Write introductory stuff    
+- [ ] edit introductory section      
 - [ ] Latex Chapter 1     
     - [ ] Latex s1.1   
     - [ ] Latex s1.2    
