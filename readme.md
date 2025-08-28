@@ -53,6 +53,6 @@ Latex Progress:
 
 - [ ] maybe make hyperlinks to theorems in Abbott's analysis possible? idrk.    
 - [x] add a TOC    
-- [ ] make the exercises (not) slanted text (maybe)   
+- [x] make the exercises (not) slanted text   
 - [ ] make this able to be split up across multiple files (not as monolithic)      
 

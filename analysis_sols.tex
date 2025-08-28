@@ -46,7 +46,7 @@
 \declaretheoremstyle[]{box} % for space below see the 
 % \tcolorboxenvironment{} line.
 
-
+\theoremstyle{definition}
 
 % NOTE: for footnotes in here, use \footnotemark{} to initialize a footnote at the point and \footnotetext{text} to populate the footnote AFTER with text.
 % unsure why this works better but it just does so
@@ -55,7 +55,7 @@
     style = box,
     name = Exercise,
     numberwithin = subsection,
-    thmbox = M
+    thmbox = {style=M,bodystyle=\normalfont}
 ]{exercise}
 
 
@@ -152,8 +152,7 @@ Also credits to Ulisse for motivating me to make this document. I'm not sure it 
 
 % sol 1.2.1 -- TODO
 \begin{solution}
-
-    solution to 1.2.1
+    yes this has rendered v2
 \end{solution}
 
 
