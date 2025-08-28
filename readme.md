@@ -48,9 +48,11 @@ Latex Progress:
 - [ ] Latex Chapter 5     
 - [ ] Latex Chapter 6
 - [ ] Latex Chapter 7     
-- [ ] Latex Chapter 8          
+- [ ] Latex Chapter 8     
+- [ ] change the title of my pdf to something sensible         
 
 - [ ] maybe make hyperlinks to theorems in Abbott's analysis possible? idrk.    
-- [ ] add a TOC    
-- [ ] make the exercises (not) slanted text (maybe)    
+- [x] add a TOC    
+- [ ] make the exercises (not) slanted text (maybe)   
+- [ ] make this able to be split up across multiple files (not as monolithic)      
 
