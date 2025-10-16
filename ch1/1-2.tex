@@ -7,13 +7,21 @@
     \indent
     (a) Prove that \( \sqrt{3} \) is irrational. Does a similar argument work to show \( \sqrt{6} \) is irrational?
 
-    (b) Where does the proof of Theorem 1.1.1\footnotemark{} break down if we try to use it to prove \( \sqrt{4} \) is irrational?
+    (b) Where does the proof of Theorem 1.1.1 break down if we try to use it to prove \( \sqrt{4} \) is irrational?
 \end{exercise}
-\footnotetext{maybe add a hyper link to the thm 1.1.1 in the actual textbook?}
- 
-% sol 1.2.1 -- TODO
+
+
+% sol 1.2.1 
 \begin{solution}
-    hmmm
+    (a) Essentially, we follow the proof for Theorem 1.1.1. 
+
+    Assume there exists some rational \( \frac{p}{q} \) ($p \in \mathbb{Z}$, $q \in \mathbb{N}$) with $\gcd(p, q) = 1$ such that $\left(\frac{p}{q}\right)^2 = 3$. Simplifying, we get that $p^2 = 3q^2$. Since the right hand side (RHS) of our equation is divisible by 3, the left hand side (LHS), $p^2$, must also be divisible by 3, implying $p$ must be divisible by 3. As such, we can represent $p = 3k$ for some $k \in \mathbb{Z}$. Substituting this into our original equation, we find that $3k^2 = q^2$, which in turn implies $q$ is divisible by 3 (see the logic above). \\
+    Yet if both $p$ and $q$ are divisible by 3, then our original fraction $\left(\frac{p}{q}\right)$ was not in fact in its most simplified form; namely, $\gcd(p, q) = 3$! As such, our original assumption was wrong, meaning there exists \textbf{no} such rational $r = \frac{p}{q}$ such that $r^2 = 3$.
+    
+    A similar argument does in fact work to prove that there exists no rational $r$ such that $r^2 = 6$.
+
+    (b) The proof breaks down when we look at the divisibility of both sides. Namely, following the same steps at before, we arrive at the equation $p^2 = 4q^2$. Here, following the same logic as before, the 4 on the RHS implies $p$ is even, meaning that $p = 2k$ for some $k$. As such, $p^2 = 4q^2 \rightarrow (2k)^2 = 4q^2 \rightarrow k^2 = q^2$. Previously, we would now be able to claim something about $q$ (e.g. $q$ must be divisible by 3). Yet currently, the LHS of the equation gives us no information about $q$. As such, there is no logical contradiction (or infinite descent argument) for us to exploit to prove the irrationality of $\sqrt{4}$.
+
 \end{solution}
 
 
