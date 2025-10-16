@@ -25,6 +25,9 @@
 }
 
 
+\usepackage{subfiles} % Best loaded last in the preamble
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % horizontal bar
@@ -88,8 +91,9 @@
 % ------------------------------------------------------------------------------
 
 \title{Understanding Analysis Exercises Solutions}
-\author{LeopardCheetah}
-\date{August 24, 2025}
+\author{Alex Z}
+% started aug 24, 2025
+\date{October 15, 2025} % change to most recent date
 
 
 \begin{document}
@@ -100,7 +104,7 @@
 
 % -----------------------------------------------------------------------------
 
-
+% TODO - Fix all the hyperlink needed sections
 \section*{Overview}
 
 This document will be a compilation of all my (hopefully thorough) solutions to Stephen Abbott's \textit{Understanding Analysis}, a classic undergraduate textbook in real analysis. I hope that all solutions in this doc will leave the reader no doubt to the solution's correctness and will (hopefully) not use words such as ``trivial'', ``clearly'', or leave things up to the reader to figure out.
@@ -138,53 +142,11 @@ Also credits to Ulisse for motivating me to make this document. I'm not sure it 
 
 % sec 1.2
 \subsection{Some Preliminaries}
-
-
-\begin{exercise}
-    \indent
-    (a) Prove that \( \sqrt{3} \) is irrational. Does a similar argument work to show \( \sqrt{6} \) is irrational?
-
-    (b) Where does the proof of Theorem 1.1.1\footnotemark{} break down if we try to use it to prove \( \sqrt{4} \) is irrational?
-\end{exercise}
-\footnotetext{maybe add a hyper link to the thm 1.1.1 in the actual textbook?}
-
-% sol 1.2.1 -- TODO
-\begin{solution}
-    hmmm
-\end{solution}
-
-
-% ex 1.2.2
-\begin{exercise}
-    Show that there is no rational number \( r \) satisfying \( 2^{r} = 3 \).
-\end{exercise}
-
-% sol 1.2.2 -- TODO
-\begin{solution}
-    solution to 1.2.2.
-\end{solution}
-
- 
-
-
-% ex 1.2.3 -- TODO -- finish + fix
-\begin{exercise}
-    Decide which of the following represent true statements about the nature of sets. For any that are false, provide a specific example where the statement in question does not hold.
-
-    (a) If \( A_{1} \subset A_{2} \) then \( x \).
-
-    (b) if abc, then d.     
-
-    (c) test
-\end{exercise}
-
-% sol 1.2.3 -- TODO
-\begin{solution}
-    and their corresponding solutions.
-\end{solution}
+\subfile{ch1/1-2}
 
 
 
+  
 
 
 \end{document}
