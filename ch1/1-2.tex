@@ -6,19 +6,32 @@
 
 Preliminaries:    
 
-Sets:
+Sets
 \begin{itemize}
-    \item $A$ and $B$ are disjoint if $A \cap B = \O$. 
+    \addtolength\itemsep{4mm}
+    \addtolength\parskip{-8mm}
+    \item \( A \) and $B$ are disjoint if $A \cap B = \emptyset$.
     \item $A^{\text{c}}$ usually represents ${x \in \mathbb{R}, x \not \in A}$.
-    \item 
 \end{itemize}
 
 Functions:
 \begin{itemize}
+    \addtolength\itemsep{4mm}
+    \addtolength\parskip{-8mm}
     \item $f: A \rightarrow B$
+    \item Domain: set $A$. Range: subset of $B$ which every input from $A$ ``hits'' (maps to).
+    \item so $Range(f)$ is not necessarily equal to $B$.
 \end{itemize}
 
+(8) - Proof of the triangle inequality, introduction of the absolute value function. 
+
+$\rightarrow$ iff (if and only if) $\Rightarrow$ Must prove both sides of the equation. \\ 
+Prove $p$ iff $q$ is the same as saying prove both (if $p$, $q$) and (if $q$, $p$).
+
 \hr   
+\newpage 
+
+
 
 \subsubsection{Exercises}
 
@@ -52,7 +65,13 @@ Functions:
 
 % sol 1.2.2 -- TODO
 \begin{solution}
-    solution to 1.2.2.
+    Assume there exists some rational $\frac{p}{q}$ such that $2^{\frac{p}{q}} = 3$ or equivalently, $2^p = 3^q$. We will show that no such rational exists by showing no value of $p$ can exist such that the above equation is satisfied.
+
+    For the sake of the argument, let $p = 0$. Our equation now becomes $3^q = 1$ meaning $q = 0$ as well. Unfortunately, since $\frac{0}{0} \not \in \mathbb{Q}$, the pair $(0, 0)$ does not work and as such $p \not = 0$.
+
+    Next, assume $p < 0$. Then, $2^p < 1$ which forces $3^q$ to be less than $1$ which means $q < 0$. However, notice that if there exists some pair $(p, q)$ such that $2^{\frac{p}{q}} = 3$ with both $p, q < 0$, then the pair $(-p, -q)$ must also be another solution to the equation as $2^{\frac{-p}{-q}} = 2^{\frac{p}{q}} = 3$. As such, if we prove that the equation $2^{\frac{p}{q}} = 3$ has no solutions for positive $p$, then that equation will also have no solutions for negative $p$.
+
+    Finally then, we tackle the case when $p > 0$. $p > 0$ implies $p \in \mathbb{N}$ and as such it follows that $2^p$ is divisible by two and is even. Since the LHS of our equation ($2^p$) is divisible by 2, the RHS of our equation ($3^q$) must then also be divisible by 2 for the equality to hold. However, this is clearly impossible as an odd number times another odd number will be another odd number. As such, the RHS of our equation will never be even for positive integer values of $q$ and thus taken together with the above arguments, we conclude that no such $p$ can exist and as a result there exists no such rational $r$ such that $2^r = 3$.
 \end{solution}
 
 
