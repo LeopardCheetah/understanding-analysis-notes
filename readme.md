@@ -1,6 +1,6 @@
-# Understanding Analysis Solutions
+# Understanding Analysis Notes
 
-Solutions for Abbott's classic textbook on Real Analysis, *Understanding Analysis (2nd ed.)*. Was convinced by [Uli](https://uli.rocks/p/study-puremath/) to publish my solutions so here they are.
+Notes for Abbott's classic textbook on Real Analysis, *Understanding Analysis (2nd ed.)*. Was convinced by [Uli](https://uli.rocks/p/study-puremath/) to write something up.
 
 
 ---
@@ -24,7 +24,6 @@ Current section to Latex: 1.2
 - [ ] change the title of my pdf to something sensible         
 
 Other things to do:
-- [ ] maybe make hyperlinks to theorems in Abbott's analysis possible? idrk.    
 - [x] add a TOC    
 - [x] make the exercises (not) slanted text   
 - [x] make this able to be split up across multiple files (not as monolithic)      
