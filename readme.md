@@ -1,4 +1,13 @@
-# Understanding Analysis Notes
+# Understanding Analysis Notes (ARCHIVED)
+
+Archived 10/19/2025.
+I think this'll take WAYYYYY too much work for the benefit I get.
+
+I did learn some LaTeX along the way so I guess it was worth it.
+
+---
+
+---
 
 Notes for Abbott's classic textbook on Real Analysis, *Understanding Analysis (2nd ed.)*. Was convinced by [Uli](https://uli.rocks/p/study-puremath/) to write something up.
 
